@@ -156,6 +156,7 @@ git push -u origin main
 
 - **Dil:** Java 17
 - **Min SDK:** 24 (Android 7.0) — **Hedef SDK:** 34 (Android 14)
+- **Tasarım:** Google Stitch (mockup) → Material Components (implementasyon)
 - **UI:** Material Components, ConstraintLayout, RecyclerView, CardView
 - **Ağ:** Retrofit 2.9, OkHttp 4.12, Gson
 - **Resim:** Glide 4.16

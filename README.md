@@ -164,6 +164,15 @@ git push -u origin main
 
 ---
 
+## 📐 Geliştirme Süreci
+
+Uygulamanın arayüz tasarımı, **Google Stitch** ile mockup olarak hazırlandı.
+Tasarım onaylandıktan sonra Android Studio'da Java ile implemente edildi.
+`docs/screenshots/` klasöründeki görseller, çalışan uygulamadan Pixel 2
+emülatöründe alınmıştır.
+
+---
+
 ## 📄 Lisans
 
 MIT Lisansı — ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.

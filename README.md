@@ -202,7 +202,7 @@ git push -u origin main
 | Üç activity main sayfası | ✅ | Panel + Günlük + Keşfet (+ Profil) fragment'ları |
 | Serbest editör | ✅ | Android Studio veya IntelliJ IDEA |
 | Emülatör sorunu çözümü | ✅ | Fiziksel cihaz / BIOS sanallaştırma / Genymotion (yukarıda) |
-| Veritabanı bağlantısı | ✅ | SQLite (`DatabaseHelper.java`) — en basit seçenek |
+| Veritabanı bağlantısı | ✅ | SQLite (`DatabaseHelper.java`) |
 | API bağlantısı | ✅ | NewsAPI.org + Retrofit (`api/` paketi) |
 | İnternet bağlantısı | ✅ | `INTERNET` izni + `AgBaglantisi` kontrolü |
 | GitHub + dokümantasyon | ✅ | Bu README + kod içi Türkçe yorumlar |

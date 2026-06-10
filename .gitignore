@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local config (makineye özel SDK yolu)
+local.properties
+
+# Log dosyaları
+*.log
+
+# Keystore (imza anahtarları ASLA repoya konmaz)
+*.jks
+*.keystore
+
+# API anahtarı dosyası (gizli)
+apikey.properties

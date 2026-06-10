@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_panel"
+        android:icon="@drawable/ic_panel"
+        android:title="@string/nav_panel" />
+    <item
+        android:id="@+id/nav_gunluk"
+        android:icon="@drawable/ic_book"
+        android:title="@string/nav_gunluk" />
+    <item
+        android:id="@+id/nav_kesfet"
+        android:icon="@drawable/ic_compass"
+        android:title="@string/nav_kesfet" />
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_person"
+        android:title="@string/nav_profil" />
+</menu>

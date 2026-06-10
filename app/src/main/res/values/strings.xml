@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoTrack</string>
+
+    <!-- Alt navigasyon -->
+    <string name="nav_panel">Panel</string>
+    <string name="nav_gunluk">Günlük</string>
+    <string name="nav_kesfet">Keşfet</string>
+    <string name="nav_profil">Profil</string>
+
+    <!-- Panel sekmesi -->
+    <string name="gunluk_limit">GÜNLÜK LİMİT</string>
+    <string name="co2_savings_title">2.4kg CO2 tasarrufu sağladınız</string>
+    <string name="co2_savings_subtitle">Harika iş! Rekorunuzdan sadece 0.6kg uzaktasınız.</string>
+    <string name="aktif_seriler">Aktif Seriler</string>
+    <string name="hepsini_gor">Hepsini Gör</string>
+    <string name="ulasim">ULAŞIM</string>
+    <string name="bitki_bazli">BİTKİ BAZLI</string>
+    <string name="surdurulebilir_yolculuk">Sürdürülebilir Yolculuk</string>
+    <string name="surdurulebilir_yolculuk_aciklama">Bu ay 4 ağaca eşdeğer dikim yaptınız.</string>
+    <string name="etkiyi_gor">Etkiyi Gör</string>
+    <string name="gunun_ipucu">Günün ipucu</string>
+    <string name="gunun_ipucu_metni">Kullanılmayan cihazların fişini çekin.</string>
+    <string name="topluluk">Topluluk</string>
+    <string name="topluluk_metni">Yerel temizlik etkinliğine katılın.</string>
+
+    <!-- Günlük sekmesi -->
+    <string name="etki_gunlugu">Etki Günlüğü</string>
+    <string name="etki_gunlugu_subtitle">Sürdürülebilir alışkanlıklarını takip et ve dünyayı iyileştir.</string>
+    <string name="toplam_etki">TOPLAM ETKİ</string>
+    <string name="xp_label">XP</string>
+    <string name="seviye_aciklama">Seviye 4: Doğa Dostu (Sonraki seviye için 260 XP)</string>
+    <string name="seri_devam_ediyor">Seri Devam Ediyor!</string>
+    <string name="son_aktiviteler">SON AKTİVİTELER</string>
+    <string name="tumunu_gor">Tümünü Gör</string>
+    <string name="haftalik_hedef">Haftalık Hedefine Yaklaştın!</string>
+    <string name="haftalik_hedef_metni">3 aktivite daha ekleyerek \'Haftalık Kahraman\' rozetini kazanabilirsin.</string>
+    <string name="hedefleri_gor">Hedefleri Gör</string>
+
+    <!-- Keşfet sekmesi -->
+    <string name="icerik_ara">İÇERİK ARA</string>
+    <string name="arama_ipucu">Sürdürülebilirlik hakkında bilgi edinin…</string>
+    <string name="kategori_hepsi">HEPSİ</string>
+    <string name="kategori_teknoloji">TEKNOLOJİ</string>
+    <string name="kategori_yasam">YAŞAM</string>
+    <string name="kategori_enerji">ENERJİ</string>
+    <string name="editorun_secimi">EDİTÖRÜN SEÇİMİ</string>
+    <string name="haftalik_bulten">Haftalık Bülten</string>
+    <string name="bulten_aciklama">Ekolojik yaşam ipuçları ve en yeni teknolojiler her Salı kapınızda.</string>
+    <string name="eposta_hint">E-posta adresiniz</string>
+    <string name="abone_ol">Abone Ol</string>
+    <string name="son_paylasilanlar">Son Paylaşılanlar</string>
+    <string name="daha_fazla_yukle">Daha Fazla Yükle</string>
+
+    <!-- Genel -->
+    <string name="aktivite_ekle">Aktivite Ekle</string>
+    <string name="bildirim">Bildirim</string>
+    <string name="profil_resmi">Profil Resmi</string>
+</resources>

@@ -1,0 +1,13 @@
+# Bu dosyayi local.properties olarak yeniden adlandirin ve
+# kendi Android SDK yolunuzu yazin.
+#
+# Android Studio'da projeyi acarken otomatik olusturulur,
+# ama elle olusturmak isterseniz asagidaki satiri kullanin:
+
+sdk.dir=C:\\Users\\KULLANICI_ADINIZ\\AppData\\Local\\Android\\Sdk
+
+# macOS icin:
+# sdk.dir=/Users/KULLANICI_ADINIZ/Library/Android/sdk
+
+# Linux icin:
+# sdk.dir=/home/KULLANICI_ADINIZ/Android/Sdk

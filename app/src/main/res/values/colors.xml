@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ana yeşil tonları - ekran görüntülerindeki paletten -->
+    <color name="green_primary_dark">#1F4D38</color>      <!-- Koyu yeşil kart arkaplanı -->
+    <color name="green_primary">#2E7D54</color>            <!-- Buton, ikon -->
+    <color name="green_light">#C8E6CB</color>              <!-- Açık yeşil -->
+    <color name="green_very_light">#E8F5E9</color>         <!-- Çok açık yeşil -->
+    <color name="green_chip_bg">#D4EDD7</color>            <!-- Chip arkaplanı -->
+    <color name="green_xp_badge">#B2DFB8</color>           <!-- +15 XP rozeti -->
+    <color name="orange_food_bg">#FCE4C4</color>           <!-- Bitki bazlı arkaplanı (kart 2) -->
+    <color name="orange_food_icon">#D9831F</color>         <!-- Bitki bazlı ikon turuncusu -->
+
+    <!-- Nötr tonlar -->
+    <color name="white">#FFFFFF</color>
+    <color name="background_gray">#F7F7F5</color>           <!-- Ekran arkaplanı -->
+    <color name="card_white">#FFFFFF</color>
+    <color name="text_primary">#1A1A1A</color>              <!-- Ana metin -->
+    <color name="text_secondary">#666666</color>            <!-- İkincil metin -->
+    <color name="text_on_dark">#FFFFFF</color>              <!-- Koyu kartlar üzeri metin -->
+    <color name="divider">#E0E0E0</color>                   <!-- Ayraç -->
+    <color name="progress_track">#E0EDE3</color>            <!-- İlerleme barı arka izi -->
+
+    <!-- Sistem renkleri -->
+    <color name="black">#000000</color>
+</resources>

@@ -66,7 +66,7 @@ EcoTrack/
 
 ---
 
-## 🗄️ Veritabanı — Neden SQLite?
+## 🗄️ Veritabanı — SQLite Kullanım Nedenleri
 
 
 - Android'e **yerleşik** gelir — ek kurulum, hesap veya sunucu gerektirmez.
@@ -77,7 +77,7 @@ EcoTrack/
 `DatabaseHelper.java` tek bir `activities` tablosu yönetir ve şu işlemleri sunar:
 `aktiviteEkle()`, `tumAktiviteleriGetir()`, `toplamXp()`, `toplamCo2Tasarrufu()`, `aktiviteSil()`.
 
-İlk açılışta tablo otomatik oluşturulur ve 3 demo aktivite eklenir (ekran boş görünmesin diye).
+İlk açılışta tablo otomatik oluşturulur ve ekran boş görünmesin diye 3 demo aktivite eklenir.
 
 ---
 
@@ -117,7 +117,7 @@ Keşfet sekmesi, çevre/sürdürülebilirlik haberlerini **NewsAPI.org**'dan çe
 
 ```bash
 # 1. Projeyi klonlayın
-git clone https://github.com/KULLANICI_ADINIZ/EcoTrack.git
+git clone https://github.com/ozlemharmanci/ecotrack.git
 cd EcoTrack
 
 # 2. (İsteğe bağlı) NewsAPI anahtarınızı ApiClient.java'ya ekleyin
@@ -129,50 +129,6 @@ cd EcoTrack
 # 4. Çalıştırın: Yeşil "Run" düğmesine basın veya:
 ./gradlew installDebug    # bağlı cihaza yükler
 ```
-
----
-
-## ⚠️ Android Studio Emülatör Açılmıyor mu?
-
-Emülatör açılırken Android Studio'nun kapanması, neredeyse her zaman **donanım sanallaştırmasının kapalı olması** veya **kaynak yetersizliği** kaynaklıdır. Üç çözüm — kolaydan zora:
-
-### ✅ Çözüm 1: Fiziksel telefon kullan (EN KOLAY, emülatör hiç gerekmez)
-
-Emülatör hiç açmadan kendi Android telefonunda test edebilirsin:
-
-1. Telefonunda **Ayarlar > Telefon Hakkında** → "Yapı Numarası"na 7 kez dokun (Geliştirici modu açılır).
-2. **Ayarlar > Geliştirici Seçenekleri** → "USB Hata Ayıklama"yı aç.
-3. Telefonu USB ile bilgisayara bağla.
-4. Android Studio'da cihaz listesinde telefonun görünür → **Run**'a bas.
-
-Bu yöntem emülatörden hem daha hızlı hem daha az kaynak tüketir.
-
-### ✅ Çözüm 2: BIOS'tan sanallaştırmayı aç
-
-Emülatör, donanım sanallaştırması gerektirir:
-
-- Bilgisayarı yeniden başlat, BIOS/UEFI'ye gir (genelde `F2`, `Del`, `F10`).
-- **Intel VT-x** (Intel işlemci) veya **AMD-V / SVM Mode** (AMD işlemci) seçeneğini **Enabled** yap.
-- Kaydet ve çık.
-- Windows'ta ek olarak: "Windows özelliklerini aç/kapat" → **Hyper-V** ve **Windows Hypervisor Platform**'u dene (bazı sistemlerde tam tersi gerekir — biri çalışmazsa diğerini dene).
-
-Ardından Android Studio'da: **Tools > SDK Manager > SDK Tools** → **Android Emulator hypervisor driver**'ı kur.
-
-### ✅ Çözüm 3: Genymotion (alternatif emülatör)
-
-Android Studio emülatörü hâlâ çökerse, daha hafif ve kararlı bir alternatif:
-
-1. [genymotion.com](https://www.genymotion.com/) → ücretsiz "Personal Use" sürümünü indir.
-2. VirtualBox ile kurulur, bir sanal cihaz oluştur.
-3. Android Studio'nun **Genymotion eklentisi** ile entegre olur, Run'a basınca o cihaza yükler.
-
-### 💡 Ek ipucu: Düşük RAM'li AVD oluştur
-
-Eğer emülatör kullanmak istersen, AVD Manager'da yeni cihaz oluştururken:
-- **RAM**: 1536 MB (varsayılan 2048'i düşür)
-- **Graphics**: "Software - GLES 2.0" seç (donanım hızlandırma sorun çıkarıyorsa)
-- Düşük API'li bir sistem imajı seç (örn. API 30, x86_64)
-
 ---
 
 ## 📦 GitHub'a Yükleme
@@ -187,7 +143,7 @@ git commit -m "İlk commit: EcoTrack tam uygulama"
 
 # GitHub'da boş bir repo oluştur (github.com/new), sonra:
 git branch -M main
-git remote add origin https://github.com/KULLANICI_ADINIZ/EcoTrack.git
+git remote add origin git clone https://github.com/ozlemharmanci/ecotrack.git
 git push -u origin main
 ```
 
@@ -195,20 +151,6 @@ git push -u origin main
 
 ---
 
-## 🧪 Şartların Karşılanması
-
-| Şart | Durum | Nasıl |
-|------|-------|-------|
-| Üç activity main sayfası | ✅ | Panel + Günlük + Keşfet (+ Profil) fragment'ları |
-| Serbest editör | ✅ | Android Studio veya IntelliJ IDEA |
-| Emülatör sorunu çözümü | ✅ | Fiziksel cihaz / BIOS sanallaştırma / Genymotion (yukarıda) |
-| Veritabanı bağlantısı | ✅ | SQLite (`DatabaseHelper.java`) |
-| API bağlantısı | ✅ | NewsAPI.org + Retrofit (`api/` paketi) |
-| İnternet bağlantısı | ✅ | `INTERNET` izni + `AgBaglantisi` kontrolü |
-| GitHub + dokümantasyon | ✅ | Bu README + kod içi Türkçe yorumlar |
-| Java ile yazım | ✅ | Tüm kaynak kod Java |
-
----
 
 ## 🔧 Kullanılan Teknolojiler
 
